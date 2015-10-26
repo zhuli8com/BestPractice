@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    DDLogDebug(@"debug");
     // Do any additional setup after loading the view, typically from a nib.
 //#ifdef _APP_DEV_
 //    [self.button setTitle:@"我是开发环境" forState:UIControlStateNormal];
