@@ -13,6 +13,28 @@
 		ACCEF0041BDDCB580051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
 		ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
 		ACCEF0091BDDCB580051A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0071BDDCB580051A1A5 /* LaunchScreen.storyboard */; };
+		ACCEF0121BDDCC950051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
+		ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
+		ACCEF0141BDDCC950051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
+		ACCEF0171BDDCC950051A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0071BDDCB580051A1A5 /* LaunchScreen.storyboard */; };
+		ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
+		ACCEF0191BDDCC950051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
+		ACCEF0211BDDCCA70051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
+		ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
+		ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
+		ACCEF0261BDDCCA70051A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0071BDDCB580051A1A5 /* LaunchScreen.storyboard */; };
+		ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
+		ACCEF0281BDDCCA70051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
+		ACCEF0301BDDCCB90051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
+		ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
+		ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
+		ACCEF0351BDDCCB90051A1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0071BDDCB580051A1A5 /* LaunchScreen.storyboard */; };
+		ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
+		ACCEF0371BDDCCB90051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
+		ACCEF0431BDDEDB20051A1A5 /* BestPractice-rc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF03C1BDDCCB90051A1A5 /* BestPractice-rc-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		ACCEF0441BDDEDB50051A1A5 /* BestPractice-test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF02D1BDDCCA70051A1A5 /* BestPractice-test-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		ACCEF04B1BDDEF2F0051A1A5 /* BestPractice-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF01E1BDDCC950051A1A5 /* BestPractice-dev-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		ACCEF04C1BDDF4070051A1A5 /* BestPractice-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF00A1BDDCB580051A1A5 /* BestPractice-Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +47,38 @@
 		ACCEF0031BDDCB580051A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCEF0081BDDCB580051A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACCEF00A1BDDCB580051A1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCEF00A1BDDCB580051A1A5 /* BestPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice/BuildConfig/appstore/BestPractice-Info.plist"; sourceTree = "<absolute>"; };
+		ACCEF01D1BDDCC950051A1A5 /* BestPractice-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestPractice-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCEF01E1BDDCC950051A1A5 /* BestPractice-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice-dev-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice/BuildConfig/dev/BestPractice-dev-Info.plist"; sourceTree = "<absolute>"; };
+		ACCEF02C1BDDCCA70051A1A5 /* BestPractice-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestPractice-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCEF02D1BDDCCA70051A1A5 /* BestPractice-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice-test-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice/BuildConfig/test/BestPractice-test-Info.plist"; sourceTree = "<absolute>"; };
+		ACCEF03B1BDDCCB90051A1A5 /* BestPractice-rc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestPractice-rc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCEF03C1BDDCCB90051A1A5 /* BestPractice-rc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice-rc-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice/BuildConfig/rc/BestPractice-rc-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ACCEEFF31BDDCB580051A1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0151BDDCC950051A1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0241BDDCCA70051A1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0331BDDCCB90051A1A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				ACCEEFF61BDDCB580051A1A5 /* BestPractice.app */,
+				ACCEF01D1BDDCC950051A1A5 /* BestPractice-dev.app */,
+				ACCEF02C1BDDCCA70051A1A5 /* BestPractice-test.app */,
+				ACCEF03B1BDDCCB90051A1A5 /* BestPractice-rc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +117,6 @@
 				ACCEF0021BDDCB580051A1A5 /* Main.storyboard */,
 				ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */,
 				ACCEF0071BDDCB580051A1A5 /* LaunchScreen.storyboard */,
-				ACCEF00A1BDDCB580051A1A5 /* Info.plist */,
 				ACCEEFF91BDDCB580051A1A5 /* Supporting Files */,
 			);
 			path = BestPractice;
@@ -74,9 +125,54 @@
 		ACCEEFF91BDDCB580051A1A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACCEF03D1BDDCEFF0051A1A5 /* BuildConfig */,
 				ACCEEFFA1BDDCB580051A1A5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACCEF03D1BDDCEFF0051A1A5 /* BuildConfig */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEF03F1BDDCF5B0051A1A5 /* dev */,
+				ACCEF0411BDDCF730051A1A5 /* test */,
+				ACCEF0401BDDCF680051A1A5 /* rc */,
+				ACCEF03E1BDDCF440051A1A5 /* appstore */,
+			);
+			name = BuildConfig;
+			sourceTree = "<group>";
+		};
+		ACCEF03E1BDDCF440051A1A5 /* appstore */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEF00A1BDDCB580051A1A5 /* BestPractice-Info.plist */,
+			);
+			name = appstore;
+			path = "BuildConfig/appstore-product";
+			sourceTree = "<group>";
+		};
+		ACCEF03F1BDDCF5B0051A1A5 /* dev */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEF01E1BDDCC950051A1A5 /* BestPractice-dev-Info.plist */,
+			);
+			name = dev;
+			sourceTree = "<group>";
+		};
+		ACCEF0401BDDCF680051A1A5 /* rc */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEF03C1BDDCCB90051A1A5 /* BestPractice-rc-Info.plist */,
+			);
+			name = rc;
+			sourceTree = "<group>";
+		};
+		ACCEF0411BDDCF730051A1A5 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEF02D1BDDCCA70051A1A5 /* BestPractice-test-Info.plist */,
+			);
+			name = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +193,57 @@
 			name = BestPractice;
 			productName = BestPractice;
 			productReference = ACCEEFF61BDDCB580051A1A5 /* BestPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACCEF0101BDDCC950051A1A5 /* BestPractice-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCEF01A1BDDCC950051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-dev" */;
+			buildPhases = (
+				ACCEF0111BDDCC950051A1A5 /* Sources */,
+				ACCEF0151BDDCC950051A1A5 /* Frameworks */,
+				ACCEF0161BDDCC950051A1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BestPractice-dev";
+			productName = BestPractice;
+			productReference = ACCEF01D1BDDCC950051A1A5 /* BestPractice-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACCEF01F1BDDCCA70051A1A5 /* BestPractice-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCEF0291BDDCCA70051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-test" */;
+			buildPhases = (
+				ACCEF0201BDDCCA70051A1A5 /* Sources */,
+				ACCEF0241BDDCCA70051A1A5 /* Frameworks */,
+				ACCEF0251BDDCCA70051A1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BestPractice-test";
+			productName = BestPractice;
+			productReference = ACCEF02C1BDDCCA70051A1A5 /* BestPractice-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACCEF02E1BDDCCB90051A1A5 /* BestPractice-rc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCEF0381BDDCCB90051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-rc" */;
+			buildPhases = (
+				ACCEF02F1BDDCCB90051A1A5 /* Sources */,
+				ACCEF0331BDDCCB90051A1A5 /* Frameworks */,
+				ACCEF0341BDDCCB90051A1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BestPractice-rc";
+			productName = BestPractice;
+			productReference = ACCEF03B1BDDCCB90051A1A5 /* BestPractice-rc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +274,9 @@
 			projectRoot = "";
 			targets = (
 				ACCEEFF51BDDCB580051A1A5 /* BestPractice */,
+				ACCEF0101BDDCC950051A1A5 /* BestPractice-dev */,
+				ACCEF01F1BDDCCA70051A1A5 /* BestPractice-test */,
+				ACCEF02E1BDDCCB90051A1A5 /* BestPractice-rc */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +289,40 @@
 				ACCEF0091BDDCB580051A1A5 /* LaunchScreen.storyboard in Resources */,
 				ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */,
 				ACCEF0041BDDCB580051A1A5 /* Main.storyboard in Resources */,
+				ACCEF04C1BDDF4070051A1A5 /* BestPractice-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0161BDDCC950051A1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0171BDDCC950051A1A5 /* LaunchScreen.storyboard in Resources */,
+				ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */,
+				ACCEF0191BDDCC950051A1A5 /* Main.storyboard in Resources */,
+				ACCEF04B1BDDEF2F0051A1A5 /* BestPractice-dev-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0251BDDCCA70051A1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0261BDDCCA70051A1A5 /* LaunchScreen.storyboard in Resources */,
+				ACCEF0441BDDEDB50051A1A5 /* BestPractice-test-Info.plist in Resources */,
+				ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */,
+				ACCEF0281BDDCCA70051A1A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0341BDDCCB90051A1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0431BDDEDB20051A1A5 /* BestPractice-rc-Info.plist in Resources */,
+				ACCEF0351BDDCCB90051A1A5 /* LaunchScreen.storyboard in Resources */,
+				ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */,
+				ACCEF0371BDDCCB90051A1A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +336,36 @@
 				ACCEF0011BDDCB580051A1A5 /* ViewController.m in Sources */,
 				ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */,
 				ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0111BDDCC950051A1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0121BDDCC950051A1A5 /* ViewController.m in Sources */,
+				ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */,
+				ACCEF0141BDDCC950051A1A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF0201BDDCCA70051A1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0211BDDCCA70051A1A5 /* ViewController.m in Sources */,
+				ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */,
+				ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEF02F1BDDCCB90051A1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCEF0301BDDCCB90051A1A5 /* ViewController.m in Sources */,
+				ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */,
+				ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +427,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +465,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,7 +477,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BestPractice/Info.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_APP_APPSTORE_,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BestPractice/BuildConfig/appstore/BestPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuli8.BestPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +494,101 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BestPractice/Info.plist;
+				GCC_PREPROCESSOR_DEFINITIONS = _APP_APPSTORE_;
+				INFOPLIST_FILE = "$(SRCROOT)/BestPractice/BuildConfig/appstore/BestPractice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuli8.BestPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACCEF01B1BDDCC950051A1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_APP_DEV_,
+				);
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/dev/BestPractice-dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACCEF01C1BDDCC950051A1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = _APP_DEV_;
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/dev/BestPractice-dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACCEF02A1BDDCCA70051A1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_APP_TEST_,
+				);
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/test/BestPractice-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACCEF02B1BDDCCA70051A1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = _APP_TEST_;
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/test/BestPractice-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACCEF0391BDDCCB90051A1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_APP_RC_,
+				);
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/rc/BestPractice-rc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-rc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACCEF03A1BDDCCB90051A1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = _APP_RC_;
+				INFOPLIST_FILE = "${PROJECT_NAME}/BuildConfig/rc/BestPractice-rc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuli8.BestPractice-rc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,6 +612,34 @@
 				ACCEF00F1BDDCB580051A1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCEF01A1BDDCC950051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCEF01B1BDDCC950051A1A5 /* Debug */,
+				ACCEF01C1BDDCC950051A1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCEF0291BDDCCA70051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCEF02A1BDDCCA70051A1A5 /* Debug */,
+				ACCEF02B1BDDCCA70051A1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCEF0381BDDCCB90051A1A5 /* Build configuration list for PBXNativeTarget "BestPractice-rc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCEF0391BDDCCB90051A1A5 /* Debug */,
+				ACCEF03A1BDDCCB90051A1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
