@@ -29,7 +29,6 @@
 		ACCEF0371BDDCCB90051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
 		ACCEF0431BDDEDB20051A1A5 /* BestPractice-rc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF03C1BDDCCB90051A1A5 /* BestPractice-rc-Info.plist */; settings = {ASSET_TAGS = (); }; };
 		ACCEF0441BDDEDB50051A1A5 /* BestPractice-test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF02D1BDDCCA70051A1A5 /* BestPractice-test-Info.plist */; settings = {ASSET_TAGS = (); }; };
-		ACCEF04B1BDDEF2F0051A1A5 /* BestPractice-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF01E1BDDCC950051A1A5 /* BestPractice-dev-Info.plist */; settings = {ASSET_TAGS = (); }; };
 		ACCEF04C1BDDF4070051A1A5 /* BestPractice-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF00A1BDDCB580051A1A5 /* BestPractice-Info.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -292,7 +291,6 @@
 			files = (
 				ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */,
 				ACCEF0191BDDCC950051A1A5 /* Main.storyboard in Resources */,
-				ACCEF04B1BDDEF2F0051A1A5 /* BestPractice-dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
