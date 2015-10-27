@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D391B4799763D1EAF3C7ED4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E839BB6D630BA205CBC52 /* libPods.a */; };
-		ACCE80461BDE34750079E415 /* AppDelegate+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80451BDE34750079E415 /* AppDelegate+Log.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80471BDE34750079E415 /* AppDelegate+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80451BDE34750079E415 /* AppDelegate+Log.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80481BDE34750079E415 /* AppDelegate+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80451BDE34750079E415 /* AppDelegate+Log.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80491BDE34750079E415 /* AppDelegate+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80451BDE34750079E415 /* AppDelegate+Log.m */; settings = {ASSET_TAGS = (); }; };
+		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
+		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
+		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
+		ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
 		ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0011BDDCB580051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
@@ -39,10 +39,8 @@
 		700FF607DD711B0886C6551F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		74DA3E06AB241A34F1FD9EAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AC71BFF21BDE32CD0046C60A /* BestPractice-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BestPractice-Prefix.pch"; sourceTree = "<group>"; };
-		ACCE80441BDE34750079E415 /* AppDelegate+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Log.h"; sourceTree = "<group>"; };
-		ACCE80451BDE34750079E415 /* AppDelegate+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Log.m"; sourceTree = "<group>"; };
-		ACCE806D1BDF1E420079E415 /* BestPractice copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice copy-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice copy-Info.plist"; sourceTree = "<absolute>"; };
-		ACCE80801BDF1F510079E415 /* BestPractice copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice copy2-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice copy2-Info.plist"; sourceTree = "<absolute>"; };
+		ACCE80B01BDF518B0079E415 /* AppLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
+		ACCE80B11BDF518B0079E415 /* AppLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLog.m; sourceTree = "<group>"; };
 		ACCEEFF61BDDCB580051A1A5 /* BestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCEEFFA1BDDCB580051A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACCEEFFC1BDDCB580051A1A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACCE80AF1BDF51550079E415 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE80B01BDF518B0079E415 /* AppLog.h */,
+				ACCE80B11BDF518B0079E415 /* AppLog.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 		ACCEEFED1BDDCB580051A1A5 = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +107,6 @@
 				ACCEEFF71BDDCB580051A1A5 /* Products */,
 				E786A42CB3CD8E7DFB89F5FA /* Pods */,
 				AE5D07BD6EBFB9DF1393D0E2 /* Frameworks */,
-				ACCE806D1BDF1E420079E415 /* BestPractice copy-Info.plist */,
-				ACCE80801BDF1F510079E415 /* BestPractice copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,13 +124,12 @@
 		ACCEEFF81BDDCB580051A1A5 /* BestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				ACCE80AF1BDF51550079E415 /* Log */,
 				ACCEEFFF1BDDCB580051A1A5 /* ViewController.h */,
 				ACCEF0001BDDCB580051A1A5 /* ViewController.m */,
 				ACCEF0021BDDCB580051A1A5 /* Main.storyboard */,
 				ACCEEFFC1BDDCB580051A1A5 /* AppDelegate.h */,
 				ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */,
-				ACCE80441BDE34750079E415 /* AppDelegate+Log.h */,
-				ACCE80451BDE34750079E415 /* AppDelegate+Log.m */,
 				ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */,
 				ACCEEFF91BDDCB580051A1A5 /* Supporting Files */,
 			);
@@ -405,7 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0011BDDCB580051A1A5 /* ViewController.m in Sources */,
-				ACCE80461BDE34750079E415 /* AppDelegate+Log.m in Sources */,
+				ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */,
 				ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */,
 			);
@@ -416,7 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0121BDDCC950051A1A5 /* ViewController.m in Sources */,
-				ACCE80471BDE34750079E415 /* AppDelegate+Log.m in Sources */,
+				ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0141BDDCC950051A1A5 /* main.m in Sources */,
 			);
@@ -427,7 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0211BDDCCA70051A1A5 /* ViewController.m in Sources */,
-				ACCE80481BDE34750079E415 /* AppDelegate+Log.m in Sources */,
+				ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */,
 			);
@@ -438,7 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0301BDDCCB90051A1A5 /* ViewController.m in Sources */,
-				ACCE80491BDE34750079E415 /* AppDelegate+Log.m in Sources */,
+				ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */,
 			);
