@@ -1,3 +1,6 @@
 platform :ios, "6.0"
 
 pod "CocoaLumberjack"
+pod "OHHTTPStubs"
+pod "AFNetworking"
+pod "Masonry"

@@ -28,5 +28,6 @@
 #ifdef _APP_APPSTORE_
 
 #define _URL_SCHEME_    @"jointforce"
+#define _URL_HOST_      @"http://localhost"
 #endif
 #endif /* AppConfig_h */

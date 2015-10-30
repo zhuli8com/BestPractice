@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppHttpRequest.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,12 @@
     
     APPLogDebug(_URL_SCHEME_);
     // Do any additional setup after loading the view, typically from a nib.
-
+    [AppHttpRequest sendGetRequestWithURL:@"/json" parameters:nil callback:^(NSURLSessionTask *task, id obj, NSError *error) {
+        if (!error) {
+            NSDictionary *dict=obj;
+            APPLogDebug(@"test%@",dict[@"message"]);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

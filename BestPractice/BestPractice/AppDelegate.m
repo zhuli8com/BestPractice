@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AppHttpMock.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,8 @@
     // Override point for customization after application launch.
     //安装日志打印
     [AppLog configLog];
+    
+    [AppHttpMock initMock];
     return YES;
 }
 
