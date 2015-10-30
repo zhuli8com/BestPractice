@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppHttpMock.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +23,12 @@
     [AppLog configLog];
     
     [AppHttpMock initMock];
+    
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    HomeViewController *homeVC=[[HomeViewController alloc] init];
+    self.window.rootViewController=homeVC;
+        
     return YES;
 }
 

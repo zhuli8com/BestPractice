@@ -14,24 +14,16 @@
 		ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
 		ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
-		ACCEF0011BDDCB580051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
-		ACCEF0041BDDCB580051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
 		ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
-		ACCEF0121BDDCC950051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
 		ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0141BDDCC950051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
-		ACCEF0191BDDCC950051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
-		ACCEF0211BDDCCA70051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
 		ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
-		ACCEF0281BDDCCA70051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
-		ACCEF0301BDDCCB90051A1A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEF0001BDDCB580051A1A5 /* ViewController.m */; };
 		ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
-		ACCEF0371BDDCCB90051A1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0021BDDCB580051A1A5 /* Main.storyboard */; };
 		ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
 		ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
 		ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
@@ -70,9 +62,6 @@
 		ACCEEFFA1BDDCB580051A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACCEEFFC1BDDCB580051A1A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACCEEFFF1BDDCB580051A1A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACCEF0001BDDCB580051A1A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ACCEF0031BDDCB580051A1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCEF00A1BDDCB580051A1A5 /* BestPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BestPractice-Info.plist"; path = "/Users/zhuli/WorkSpace/BestPractice/BestPractice/BestPractice/BestPractice/BuildConfig/appstore/BestPractice-Info.plist"; sourceTree = "<absolute>"; };
 		ACCEF01D1BDDCC950051A1A5 /* BestPractice-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestPractice-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,15 +148,12 @@
 		ACCEEFF81BDDCB580051A1A5 /* BestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				ACCE80B81BDF6BFF0079E415 /* AppConfig.h */,
 				ACCFB8E01BE338ED00222ABA /* Shell */,
 				ACCFB8CE1BE31E0300222ABA /* Network */,
 				ACCE80AF1BDF51550079E415 /* Log */,
-				ACCEEFFF1BDDCB580051A1A5 /* ViewController.h */,
-				ACCEF0001BDDCB580051A1A5 /* ViewController.m */,
-				ACCEF0021BDDCB580051A1A5 /* Main.storyboard */,
 				ACCEEFFC1BDDCB580051A1A5 /* AppDelegate.h */,
 				ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */,
-				ACCE80B81BDF6BFF0079E415 /* AppConfig.h */,
 				ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */,
 				ACCEEFF91BDDCB580051A1A5 /* Supporting Files */,
 			);
@@ -424,7 +410,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */,
-				ACCEF0041BDDCB580051A1A5 /* Main.storyboard in Resources */,
 				ACCFB8DC1BE3281400222ABA /* test.json in Resources */,
 				ACCFB8E61BE33B3600222ABA /* taobao.png in Resources */,
 			);
@@ -435,7 +420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */,
-				ACCEF0191BDDCC950051A1A5 /* Main.storyboard in Resources */,
 				ACCFB8DD1BE3281400222ABA /* test.json in Resources */,
 				ACCFB8E71BE33B3600222ABA /* taobao.png in Resources */,
 			);
@@ -446,7 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */,
-				ACCEF0281BDDCCA70051A1A5 /* Main.storyboard in Resources */,
 				ACCFB8DE1BE3281400222ABA /* test.json in Resources */,
 				ACCFB8E81BE33B3600222ABA /* taobao.png in Resources */,
 			);
@@ -457,7 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */,
-				ACCEF0371BDDCCB90051A1A5 /* Main.storyboard in Resources */,
 				ACCFB8DF1BE3281400222ABA /* test.json in Resources */,
 				ACCFB8E91BE33B3600222ABA /* taobao.png in Resources */,
 			);
@@ -518,7 +500,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCEF0011BDDCB580051A1A5 /* ViewController.m in Sources */,
 				ACCFB8EC1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */,
@@ -533,7 +514,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCEF0121BDDCC950051A1A5 /* ViewController.m in Sources */,
 				ACCFB8ED1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */,
@@ -548,7 +528,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCEF0211BDDCCA70051A1A5 /* ViewController.m in Sources */,
 				ACCFB8EE1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */,
@@ -563,7 +542,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCEF0301BDDCCB90051A1A5 /* ViewController.m in Sources */,
 				ACCFB8EF1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */,
 				ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */,
@@ -575,17 +553,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		ACCEF0021BDDCB580051A1A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACCEF0031BDDCB580051A1A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ACCEF00B1BDDCB580051A1A5 /* Debug */ = {
