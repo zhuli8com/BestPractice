@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor=[UIColor redColor];
     [AppHttpRequest sendGetRequestWithURL:@"/json" parameters:nil callback:^(NSURLSessionTask *task, id obj, NSError *error) {
         if (!error) {
             NSDictionary *dict=obj;

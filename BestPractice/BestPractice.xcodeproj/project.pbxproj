@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D391B4799763D1EAF3C7ED4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E839BB6D630BA205CBC52 /* libPods.a */; };
+		ACC13DB31BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
+		ACC13DB41BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
+		ACC13DB51BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
+		ACC13DB61BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
 		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
 		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
 		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
@@ -55,9 +59,10 @@
 		700FF607DD711B0886C6551F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		74DA3E06AB241A34F1FD9EAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AC71BFF21BDE32CD0046C60A /* BestPractice-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BestPractice-Prefix.pch"; sourceTree = "<group>"; };
+		ACC13DB21BE34AA600E843CC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		ACCE80B01BDF518B0079E415 /* AppLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
 		ACCE80B11BDF518B0079E415 /* AppLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLog.m; sourceTree = "<group>"; };
-		ACCE80B81BDF6BFF0079E415 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		ACCE80B81BDF6BFF0079E415 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = ../AppConfig.h; sourceTree = "<group>"; };
 		ACCEEFF61BDDCB580051A1A5 /* BestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCEEFFA1BDDCB580051A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACCEEFFC1BDDCB580051A1A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +132,7 @@
 		ACCEEFED1BDDCB580051A1A5 = {
 			isa = PBXGroup;
 			children = (
+				ACC13DB21BE34AA600E843CC /* readme.md */,
 				ACCEEFF81BDDCB580051A1A5 /* BestPractice */,
 				ACCEEFF71BDDCB580051A1A5 /* Products */,
 				E786A42CB3CD8E7DFB89F5FA /* Pods */,
@@ -148,7 +154,6 @@
 		ACCEEFF81BDDCB580051A1A5 /* BestPractice */ = {
 			isa = PBXGroup;
 			children = (
-				ACCE80B81BDF6BFF0079E415 /* AppConfig.h */,
 				ACCFB8E01BE338ED00222ABA /* Shell */,
 				ACCFB8CE1BE31E0300222ABA /* Network */,
 				ACCE80AF1BDF51550079E415 /* Log */,
@@ -217,6 +222,7 @@
 		ACCFB8CE1BE31E0300222ABA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				ACCE80B81BDF6BFF0079E415 /* AppConfig.h */,
 				ACCFB8CF1BE31E0300222ABA /* HttpServer */,
 				ACCFB8EA1BE33CA700222ABA /* AppHttpRequest.h */,
 				ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */,
@@ -506,6 +512,7 @@
 				ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */,
 				ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F21BE33CCD00222ABA /* AppMessage.m in Sources */,
+				ACC13DB31BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8F81BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +527,7 @@
 				ACCEF0141BDDCC950051A1A5 /* main.m in Sources */,
 				ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F31BE33CCD00222ABA /* AppMessage.m in Sources */,
+				ACC13DB41BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8F91BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,6 +542,7 @@
 				ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */,
 				ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F41BE33CCD00222ABA /* AppMessage.m in Sources */,
+				ACC13DB51BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8FA1BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +557,7 @@
 				ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */,
 				ACCFB8D51BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F51BE33CCD00222ABA /* AppMessage.m in Sources */,
+				ACC13DB61BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8FB1BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

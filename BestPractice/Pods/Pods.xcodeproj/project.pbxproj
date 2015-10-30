@@ -19,7 +19,7 @@
 		1E6A591B3DEE6317BB014BD71A50B689 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D55A9ED952EF1D5E26F56A426EDBA6 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		205F51216177E22CD1AE443745B8A119 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0386263B7F0938ECB410198051D3BB0A /* AFNetworking-dummy.m */; };
 		226E96EF42F54BDF063CFB60F6C58B36 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF42C21F331D3F42DA53FA3CCA31EC4 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23F5B559815FF24B03A7D5D76F19E740 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26035BFD6C450D17992287DEBBFF74FE /* AFURLConnectionOperation.m */; };
+		23F5B559815FF24B03A7D5D76F19E740 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26035BFD6C450D17992287DEBBFF74FE /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		263D08D54C23AAE447AC8A0E6BD02B39 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F9146A920A9FCA367A1C607FA00C20 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		270D0D7DCF78170B1F481DDF511C07D6 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A7528B54FD45D7300E79F6AABFA40E /* AFURLResponseSerialization.m */; };
 		27AFE404AA450432596D55D44B871E62 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 514CC32DB8C9C0A94DA40FCC36A1D9AC /* UIProgressView+AFNetworking.m */; };
@@ -108,7 +108,7 @@
 		E43F5D7E2C48C315DDA216F87E47B50B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C346658F95F417541A18657C578239 /* MobileCoreServices.framework */; };
 		E6B49FBCE3957DB67F691ACCC4CAF4BE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0EC5636AA316203DAE1DD0412C895 /* MASViewConstraint.m */; };
 		E6E2E57ADE1578E3ED86B1387009F3F8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6A6A4714F3902371C7372A9EF679A7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAC33FF21DBF26381F425381F18B9965 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD532685F24C54405641F76F6C47B3E1 /* AFNetworkReachabilityManager.m */; };
+		EAC33FF21DBF26381F425381F18B9965 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD532685F24C54405641F76F6C47B3E1 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 29963D08790DB9A55F7F52657B95F60F /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC4D06D78167B5DD86911B4D6A127AFB /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E575BE7C67061A7F6E07828022539E /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F9444D67A9A5C175A4A53480FBEE3E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1085,6 +1085,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-nonnull";
 			};
 			name = Debug;
 		};
@@ -1211,6 +1212,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-nonnull";
 			};
 			name = Release;
 		};
