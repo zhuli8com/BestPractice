@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "AppHttpMock.h"
 #import "HomeViewController.h"
+#import <OnboardingViewController.h>
+
+const static NSString *kUserHasOnboardedKey = @"user_has_onboarded";
 
 @interface AppDelegate ()
 
@@ -22,13 +25,29 @@
     //安装日志打印
     [AppLog configLog];
     
+
+    ///TODO: test
+    
     [AppHttpMock initMock];
     
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.window makeKeyAndVisible];
-    HomeViewController *homeVC=[[HomeViewController alloc] init];
-    self.window.rootViewController=homeVC;
+    
+    BOOL userHasOnboarded=[[NSUserDefaults standardUserDefaults] valueForKey:kUserHasOnboardedKey];
+    if (userHasOnboarded) {
+        HomeViewController *homeVC=[[HomeViewController alloc] init];
+        self.window.rootViewController=homeVC;
+    }else{
+        OnboardingContentViewController *firstPage=[OnboardingContentViewController contentWithTitle:@"第一页标题" body:@"第一页内容" image:nil buttonText:nil action:^{
+            APPLogDebug(@"click first page");
+        }];
         
+        OnboardingViewController *onboardingVC=[OnboardingViewController onboardWithBackgroundImage:nil contents:@[firstPage]];
+        
+        self.window.rootViewController=onboardingVC;
+    }
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

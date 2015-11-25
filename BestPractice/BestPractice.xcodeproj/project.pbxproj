@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D391B4799763D1EAF3C7ED4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E839BB6D630BA205CBC52 /* libPods.a */; };
-		ACC13DB31BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
-		ACC13DB41BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
-		ACC13DB51BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
-		ACC13DB61BE34AA600E843CC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = ACC13DB21BE34AA600E843CC /* readme.md */; settings = {ASSET_TAGS = (); }; };
-		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
-		ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; settings = {ASSET_TAGS = (); }; };
+		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
+		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
+		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
+		ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
 		ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
@@ -28,30 +24,30 @@
 		ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFD1BDDCB580051A1A5 /* AppDelegate.m */; };
 		ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEFFA1BDDCB580051A1A5 /* main.m */; };
 		ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCEF0051BDDCB580051A1A5 /* Assets.xcassets */; };
-		ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8D51BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8DC1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8DD1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8DE1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8DF1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8E61BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8E71BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8E81BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8E91BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8EC1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8ED1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8EE1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8EF1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F21BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F31BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F41BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F51BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F81BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8F91BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8FA1BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		ACCFB8FB1BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; };
+		ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; };
+		ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; };
+		ACCFB8D51BE31E2300222ABA /* AppHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8D11BE31E2300222ABA /* AppHttpMock.m */; };
+		ACCFB8DC1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; };
+		ACCFB8DD1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; };
+		ACCFB8DE1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; };
+		ACCFB8DF1BE3281400222ABA /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8DB1BE3281400222ABA /* test.json */; };
+		ACCFB8E61BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; };
+		ACCFB8E71BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; };
+		ACCFB8E81BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; };
+		ACCFB8E91BE33B3600222ABA /* taobao.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCFB8E51BE33B3600222ABA /* taobao.png */; };
+		ACCFB8EC1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; };
+		ACCFB8ED1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; };
+		ACCFB8EE1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; };
+		ACCFB8EF1BE33CA700222ABA /* AppHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8EB1BE33CA700222ABA /* AppHttpRequest.m */; };
+		ACCFB8F21BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; };
+		ACCFB8F31BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; };
+		ACCFB8F41BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; };
+		ACCFB8F51BE33CCD00222ABA /* AppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F11BE33CCD00222ABA /* AppMessage.m */; };
+		ACCFB8F81BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; };
+		ACCFB8F91BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; };
+		ACCFB8FA1BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; };
+		ACCFB8FB1BE33D1900222ABA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCFB8F71BE33D1900222ABA /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -512,7 +508,6 @@
 				ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */,
 				ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F21BE33CCD00222ABA /* AppMessage.m in Sources */,
-				ACC13DB31BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8F81BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,7 +522,6 @@
 				ACCEF0141BDDCC950051A1A5 /* main.m in Sources */,
 				ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F31BE33CCD00222ABA /* AppMessage.m in Sources */,
-				ACC13DB41BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8F91BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,7 +536,6 @@
 				ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */,
 				ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F41BE33CCD00222ABA /* AppMessage.m in Sources */,
-				ACC13DB51BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8FA1BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,7 +550,6 @@
 				ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */,
 				ACCFB8D51BE31E2300222ABA /* AppHttpMock.m in Sources */,
 				ACCFB8F51BE33CCD00222ABA /* AppMessage.m in Sources */,
-				ACC13DB61BE34AA600E843CC /* readme.md in Sources */,
 				ACCFB8FB1BE33D1900222ABA /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
