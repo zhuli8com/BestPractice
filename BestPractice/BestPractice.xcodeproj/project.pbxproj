@@ -20,6 +20,10 @@
 		AC2E113B1C059A5C00701A78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E113F1C059A5C00701A78 /* InfoPlist.strings */; };
 		AC2E113C1C059A5C00701A78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E113F1C059A5C00701A78 /* InfoPlist.strings */; };
 		AC2E113D1C059A5C00701A78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E113F1C059A5C00701A78 /* InfoPlist.strings */; };
+		AC2E11481C059EF200701A78 /* Local.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E114D1C059EF200701A78 /* Local.strings */; };
+		AC2E11491C059EF200701A78 /* Local.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E114D1C059EF200701A78 /* Local.strings */; };
+		AC2E114A1C059EF200701A78 /* Local.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E114D1C059EF200701A78 /* Local.strings */; };
+		AC2E114B1C059EF200701A78 /* Local.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC2E114D1C059EF200701A78 /* Local.strings */; };
 		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
 		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
 		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
@@ -72,6 +76,9 @@
 		AC2E11401C059A7000701A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC2E11411C059A8700701A78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		AC2E11421C059B6900701A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC2E114C1C059EF200701A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Local.strings; sourceTree = "<group>"; };
+		AC2E114E1C059EF800701A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Local.strings; sourceTree = "<group>"; };
+		AC2E114F1C059EF900701A78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Local.strings"; sourceTree = "<group>"; };
 		AC71BFF21BDE32CD0046C60A /* BestPractice-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BestPractice-Prefix.pch"; sourceTree = "<group>"; };
 		ACC13DB21BE34AA600E843CC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		ACCE80B01BDF518B0079E415 /* AppLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
@@ -140,6 +147,7 @@
 				AC2E112A1C05998500701A78 /* LocalViewController.h */,
 				AC2E112B1C05998500701A78 /* LocalViewController.m */,
 				AC2E112C1C05998500701A78 /* LocalViewController.xib */,
+				AC2E114D1C059EF200701A78 /* Local.strings */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -444,6 +452,7 @@
 			files = (
 				ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DC1BE3281400222ABA /* test.json in Resources */,
+				AC2E11481C059EF200701A78 /* Local.strings in Resources */,
 				AC2E11311C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E61BE33B3600222ABA /* taobao.png in Resources */,
 				AC2E113A1C059A5C00701A78 /* InfoPlist.strings in Resources */,
@@ -456,6 +465,7 @@
 			files = (
 				ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DD1BE3281400222ABA /* test.json in Resources */,
+				AC2E11491C059EF200701A78 /* Local.strings in Resources */,
 				AC2E11321C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E71BE33B3600222ABA /* taobao.png in Resources */,
 				AC2E113B1C059A5C00701A78 /* InfoPlist.strings in Resources */,
@@ -468,6 +478,7 @@
 			files = (
 				ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DE1BE3281400222ABA /* test.json in Resources */,
+				AC2E114A1C059EF200701A78 /* Local.strings in Resources */,
 				AC2E11331C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E81BE33B3600222ABA /* taobao.png in Resources */,
 				AC2E113C1C059A5C00701A78 /* InfoPlist.strings in Resources */,
@@ -480,6 +491,7 @@
 			files = (
 				ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DF1BE3281400222ABA /* test.json in Resources */,
+				AC2E114B1C059EF200701A78 /* Local.strings in Resources */,
 				AC2E11341C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E91BE33B3600222ABA /* taobao.png in Resources */,
 				AC2E113D1C059A5C00701A78 /* InfoPlist.strings in Resources */,
@@ -608,6 +620,16 @@
 				AC2E11421C059B6900701A78 /* Base */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC2E114D1C059EF200701A78 /* Local.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2E114C1C059EF200701A78 /* Base */,
+				AC2E114E1C059EF800701A78 /* en */,
+				AC2E114F1C059EF900701A78 /* zh-Hans */,
+			);
+			name = Local.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

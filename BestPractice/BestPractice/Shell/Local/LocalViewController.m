@@ -9,6 +9,8 @@
 #import "LocalViewController.h"
 
 @interface LocalViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.label.text=NSLocalizedStringFromTable(@"key", @"Local", @"我是注释");
 }
 
 - (void)didReceiveMemoryWarning {
