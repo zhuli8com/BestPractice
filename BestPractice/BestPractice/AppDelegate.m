@@ -10,8 +10,9 @@
 #import "AppHttpMock.h"
 #import "HomeViewController.h"
 #import <OnboardingViewController.h>
+#import "LocalViewController.h"
 
-const static NSString *kUserHasOnboardedKey = @"user_has_onboarded";
+#define kUserHasOnboardedKey @"user_has_onboarded"
 
 @interface AppDelegate ()
 
@@ -34,7 +35,9 @@ const static NSString *kUserHasOnboardedKey = @"user_has_onboarded";
     
     BOOL userHasOnboarded=[[NSUserDefaults standardUserDefaults] valueForKey:kUserHasOnboardedKey];
     if (userHasOnboarded) {
-        HomeViewController *homeVC=[[HomeViewController alloc] init];
+//        HomeViewController *homeVC=[[HomeViewController alloc] init];
+        LocalViewController *homeVC=[[LocalViewController alloc] init];
+
         self.window.rootViewController=homeVC;
     }else{
         OnboardingContentViewController *firstPage=[OnboardingContentViewController contentWithTitle:@"第一页标题" body:@"第一页内容" image:nil buttonText:nil action:^{
@@ -44,6 +47,7 @@ const static NSString *kUserHasOnboardedKey = @"user_has_onboarded";
         OnboardingViewController *onboardingVC=[OnboardingViewController onboardWithBackgroundImage:nil contents:@[firstPage]];
         
         self.window.rootViewController=onboardingVC;
+        [[NSUserDefaults standardUserDefaults] setValue:@YES forKey:kUserHasOnboardedKey];
     }
     
     [self.window makeKeyAndVisible];

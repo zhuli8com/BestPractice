@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8D391B4799763D1EAF3C7ED4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E839BB6D630BA205CBC52 /* libPods.a */; };
+		AC2E112D1C05998500701A78 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E112B1C05998500701A78 /* LocalViewController.m */; };
+		AC2E112E1C05998500701A78 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E112B1C05998500701A78 /* LocalViewController.m */; };
+		AC2E112F1C05998500701A78 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E112B1C05998500701A78 /* LocalViewController.m */; };
+		AC2E11301C05998500701A78 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E112B1C05998500701A78 /* LocalViewController.m */; };
+		AC2E11311C05998500701A78 /* LocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2E112C1C05998500701A78 /* LocalViewController.xib */; };
+		AC2E11321C05998500701A78 /* LocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2E112C1C05998500701A78 /* LocalViewController.xib */; };
+		AC2E11331C05998500701A78 /* LocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2E112C1C05998500701A78 /* LocalViewController.xib */; };
+		AC2E11341C05998500701A78 /* LocalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2E112C1C05998500701A78 /* LocalViewController.xib */; };
 		ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
 		ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
 		ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCE80B11BDF518B0079E415 /* AppLog.m */; };
@@ -54,6 +62,9 @@
 		114E839BB6D630BA205CBC52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		700FF607DD711B0886C6551F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		74DA3E06AB241A34F1FD9EAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2E112A1C05998500701A78 /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
+		AC2E112B1C05998500701A78 /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
+		AC2E112C1C05998500701A78 /* LocalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalViewController.xib; sourceTree = "<group>"; };
 		AC71BFF21BDE32CD0046C60A /* BestPractice-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BestPractice-Prefix.pch"; sourceTree = "<group>"; };
 		ACC13DB21BE34AA600E843CC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		ACCE80B01BDF518B0079E415 /* AppLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLog.h; sourceTree = "<group>"; };
@@ -116,6 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2E11291C05995600701A78 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E112A1C05998500701A78 /* LocalViewController.h */,
+				AC2E112B1C05998500701A78 /* LocalViewController.m */,
+				AC2E112C1C05998500701A78 /* LocalViewController.xib */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
 		ACCE80AF1BDF51550079E415 /* Log */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +261,7 @@
 		ACCFB8E01BE338ED00222ABA /* Shell */ = {
 			isa = PBXGroup;
 			children = (
+				AC2E11291C05995600701A78 /* Local */,
 				ACCFB8E11BE338ED00222ABA /* Home */,
 			);
 			path = Shell;
@@ -413,6 +435,7 @@
 			files = (
 				ACCEF0061BDDCB580051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DC1BE3281400222ABA /* test.json in Resources */,
+				AC2E11311C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E61BE33B3600222ABA /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +446,7 @@
 			files = (
 				ACCEF0181BDDCC950051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DD1BE3281400222ABA /* test.json in Resources */,
+				AC2E11321C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E71BE33B3600222ABA /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +457,7 @@
 			files = (
 				ACCEF0271BDDCCA70051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DE1BE3281400222ABA /* test.json in Resources */,
+				AC2E11331C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E81BE33B3600222ABA /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +468,7 @@
 			files = (
 				ACCEF0361BDDCCB90051A1A5 /* Assets.xcassets in Resources */,
 				ACCFB8DF1BE3281400222ABA /* test.json in Resources */,
+				AC2E11341C05998500701A78 /* LocalViewController.xib in Resources */,
 				ACCFB8E91BE33B3600222ABA /* taobao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +530,7 @@
 			files = (
 				ACCFB8EC1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B21BDF518B0079E415 /* AppLog.m in Sources */,
+				AC2E112D1C05998500701A78 /* LocalViewController.m in Sources */,
 				ACCEEFFE1BDDCB580051A1A5 /* AppDelegate.m in Sources */,
 				ACCEEFFB1BDDCB580051A1A5 /* main.m in Sources */,
 				ACCFB8D21BE31E2300222ABA /* AppHttpMock.m in Sources */,
@@ -518,6 +545,7 @@
 			files = (
 				ACCFB8ED1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B31BDF518B0079E415 /* AppLog.m in Sources */,
+				AC2E112E1C05998500701A78 /* LocalViewController.m in Sources */,
 				ACCEF0131BDDCC950051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0141BDDCC950051A1A5 /* main.m in Sources */,
 				ACCFB8D31BE31E2300222ABA /* AppHttpMock.m in Sources */,
@@ -532,6 +560,7 @@
 			files = (
 				ACCFB8EE1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B41BDF518B0079E415 /* AppLog.m in Sources */,
+				AC2E112F1C05998500701A78 /* LocalViewController.m in Sources */,
 				ACCEF0221BDDCCA70051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0231BDDCCA70051A1A5 /* main.m in Sources */,
 				ACCFB8D41BE31E2300222ABA /* AppHttpMock.m in Sources */,
@@ -546,6 +575,7 @@
 			files = (
 				ACCFB8EF1BE33CA700222ABA /* AppHttpRequest.m in Sources */,
 				ACCE80B51BDF518B0079E415 /* AppLog.m in Sources */,
+				AC2E11301C05998500701A78 /* LocalViewController.m in Sources */,
 				ACCEF0311BDDCCB90051A1A5 /* AppDelegate.m in Sources */,
 				ACCEF0321BDDCCB90051A1A5 /* main.m in Sources */,
 				ACCFB8D51BE31E2300222ABA /* AppHttpMock.m in Sources */,

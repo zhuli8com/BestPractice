@@ -20,7 +20,7 @@
 		205F51216177E22CD1AE443745B8A119 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5A69FA118CBD095C7AE679A24D0F6 /* AFNetworking-dummy.m */; };
 		226E3E507FD751FB9694FBFA88566BC0 /* Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF685063D77D24CA8D1FB86209ECF0FB /* Onboard-dummy.m */; };
 		226E96EF42F54BDF063CFB60F6C58B36 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1415E2D2CCB777ADA44F7ACD64E8DDB9 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23F5B559815FF24B03A7D5D76F19E740 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A32698D7C498E2B0B4834DD63F9AEAC8 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		23F5B559815FF24B03A7D5D76F19E740 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A32698D7C498E2B0B4834DD63F9AEAC8 /* AFURLConnectionOperation.m */; };
 		263D08D54C23AAE447AC8A0E6BD02B39 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EB459E2ED052EA93929A2CDD26E33E4B /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		270D0D7DCF78170B1F481DDF511C07D6 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA791279D68E9C2A4C4F8436E808268 /* AFURLResponseSerialization.m */; };
 		27AFE404AA450432596D55D44B871E62 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75792D8AB0F361ABF61BD064F9C172 /* UIProgressView+AFNetworking.m */; };
@@ -110,11 +110,11 @@
 		DF180E88C3E1BF35D93F31300FA4BC65 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DEE4DF96CE115CF584AF9F078ECD6E /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1ED34DB49C6A05D740B8425F88CEC20 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE40E680E8D7627FA6E0F287622327D /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E38C00106AD769DAA4E938F8878B7A7D /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D81F1D3E18024FAE30D5378BAB08E41 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4213D476018C8B58166DF22722C0463 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982E0DD5A2143C76C5B438FA7E74170 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		E4213D476018C8B58166DF22722C0463 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0982E0DD5A2143C76C5B438FA7E74170 /* AFURLSessionManager.m */; };
 		E43F5D7E2C48C315DDA216F87E47B50B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C346658F95F417541A18657C578239 /* MobileCoreServices.framework */; };
 		E6B49FBCE3957DB67F691ACCC4CAF4BE /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CFC9E65A5FA442F1F42E50D84C1C16 /* MASViewConstraint.m */; };
 		E6E2E57ADE1578E3ED86B1387009F3F8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB70F6291FACC8DC6FB454B9D67464D /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAC33FF21DBF26381F425381F18B9965 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D73639EBE3B077EE7BFB6B989657CD /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		EAC33FF21DBF26381F425381F18B9965 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D73639EBE3B077EE7BFB6B989657CD /* AFNetworkReachabilityManager.m */; };
 		EB02AEF303313F801392DE8D90AFF0F7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 764217CE7EC04DB4DB2A58ED6AA7303E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC4D06D78167B5DD86911B4D6A127AFB /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 42267BE55AF34F159540ED8D8FD580FA /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EC6CCC98505D2067BC98B4E6223C9DF8 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FBBBE93F195798B66C65A079CA9A7F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
